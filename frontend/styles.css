@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f4f8; /* Light background for a clean look */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin-top: 30px;
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  #teacher-list {
+    margin-top: 30px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .teacher {
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+  }
+  
+  .teacher:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.05);
+  }
+  
+  .green-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  
+  .last-seen {
+    color: grey;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    font-size: 18px;
+    width: 250px;
+    margin-top: 30px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
